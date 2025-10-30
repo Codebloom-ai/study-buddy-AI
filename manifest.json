@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Study Buddy AI",
+  "version": "1.0",
+  "description": "Summarize, simplify, and generate quiz questions from any text using AI.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
